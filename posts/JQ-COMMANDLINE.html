@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Bhoomi Agrawal, Dhruv Gupta, Antara Donde">
+<meta name="dcterms.date" content="2025-02-25">
 
-<title>jq – Lightweight command-line JSON processor – My blog</title>
+<title>jq:Command-line JSON processor – My blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -107,7 +109,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -143,20 +145,53 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#jq-lightweight-command-line-json-processor" id="toc-jq-lightweight-command-line-json-processor" class="nav-link active" data-scroll-target="#jq-lightweight-command-line-json-processor"><strong><em>jq – Lightweight command-line JSON processor</em></strong></a>
+  <ul class="collapse">
+  <li><a href="#introduction-to-jq" id="toc-introduction-to-jq" class="nav-link" data-scroll-target="#introduction-to-jq"><strong><em>Introduction to Jq</em></strong></a></li>
+  <li><a href="#installation-and-setup-guide" id="toc-installation-and-setup-guide" class="nav-link" data-scroll-target="#installation-and-setup-guide"><strong><em>Installation and Setup Guide</em></strong></a></li>
+  <li><a href="#key-features-and-functionalities-of-jq" id="toc-key-features-and-functionalities-of-jq" class="nav-link" data-scroll-target="#key-features-and-functionalities-of-jq"><strong><em>Key features and functionalities of jq</em></strong></a></li>
+  <li><a href="#most-common-mistakes" id="toc-most-common-mistakes" class="nav-link" data-scroll-target="#most-common-mistakes"><strong><em>Most common mistakes!!</em></strong></a></li>
+  <li><a href="#use-cases" id="toc-use-cases" class="nav-link" data-scroll-target="#use-cases"><strong><em>Use cases</em></strong></a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><strong><em>Conclusion</em></strong></a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><strong><em>References</em></strong></a></li>
+  <li><a href="#other-manuals-and-tutorials" id="toc-other-manuals-and-tutorials" class="nav-link" data-scroll-target="#other-manuals-and-tutorials"><strong><em>Other manuals and tutorials</em></strong></a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><strong><em>jq – Lightweight command-line JSON processor</em></strong></h1>
-</div>
+<h1 class="title">jq:Command-line JSON processor</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">ML</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Bhoomi Agrawal, Dhruv Gupta, Antara Donde </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 25, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -166,6 +201,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
+<section id="jq-lightweight-command-line-json-processor" class="level1">
+<h1><strong><em>jq – Lightweight command-line JSON processor</em></strong></h1>
 <p>JSON (JavaScript Object Notation) is a data format which structures and stores data efficiently. It is lightweight and readable which means that it is easy to read and write for humans and easy for machines to parse and generate. It is commonly used in APIs for the exchange of data between different applications. It is used in different programming languages like Python, JavaScript, Java, etc. JSON is a library in Python and its object looks like a python dictionary. ##### JSON Data Types: 1. String → “Alice” 2. Number → 25 3. Boolean → true / false 4. Array → [“Math”, “Science”] 5. Object → {“city”: “New York”, “zip”: “10001”} 6. Null → null</p>
 <section id="introduction-to-jq" class="level3">
 <h3 class="anchored" data-anchor-id="introduction-to-jq"><strong><em>Introduction to Jq</em></strong></h3>
@@ -275,11 +312,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li>output</li>
 </ul>
-<div id="cell-22" class="cell" data-execution_count="20">
+<div id="cell-22" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.core.display <span class="im">import</span> HTML</span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>HTML(<span class="st">'&lt;img src="1.png" style="width:100%; display:block; margin:0;"&gt;'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="20">
+<div class="cell-output cell-output-display" data-execution_count="3">
 <img src="1.png" style="width:100%; display:block; margin:0;">
 </div>
 </div>
@@ -295,12 +332,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>for nested fields</li>
 </ul>
 <div class="sourceCode" id="cb18"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>jq <span class="st">'users[].address.city'</span> <span class="kw">data</span><span class="op">.</span><span class="fu">json</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div id="cell-24" class="cell">
+<div id="cell-24" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.core.display <span class="im">import</span> HTML</span>
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>HTML(<span class="st">'&lt;img src="2new.png" style="width:100%; display:block; margin:0;"&gt;'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="10">
-<img src="2new.png" style="width:70%; display:block; margin:0;">
+<div class="cell-output cell-output-display" data-execution_count="4">
+<img src="2new.png" style="width:100%; display:block; margin:0;">
 </div>
 </div>
 <ol start="3" type="1">
@@ -315,12 +352,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li>output</li>
 </ul>
-<div id="cell-26" class="cell">
+<div id="cell-26" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.core.display <span class="im">import</span> HTML</span>
 <span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>HTML(<span class="st">'&lt;img src="3.png" style="width:100%; display:block; margin:0;"&gt;'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="12">
-<img src="3.png" style="width:70%; display:block; margin:0;">
+<div class="cell-output cell-output-display" data-execution_count="5">
+<img src="3.png" style="width:100%; display:block; margin:0;">
 </div>
 </div>
 <ol start="4" type="1">
@@ -335,12 +372,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li>output</li>
 </ul>
-<div id="cell-28" class="cell">
+<div id="cell-28" class="cell" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.core.display <span class="im">import</span> HTML</span>
 <span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>HTML(<span class="st">'&lt;img src="4new.png" style="width:100%; display:block; margin:0;"&gt;'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="13">
-<img src="4new.png" style="width:70%; display:block; margin:0;">
+<div class="cell-output cell-output-display" data-execution_count="6">
+<img src="4new.png" style="width:100%; display:block; margin:0;">
 </div>
 </div>
 <ol start="5" type="1">
@@ -352,12 +389,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Command</li>
 </ul>
 <div class="sourceCode" id="cb24"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>jq <span class="st">'.users[].email'</span> users<span class="op">.</span><span class="fu">json</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div id="cell-30" class="cell">
+<div id="cell-30" class="cell" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.core.display <span class="im">import</span> HTML</span>
 <span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>HTML(<span class="st">'&lt;img src="5.png" style="width:100%; display:block; margin:0;"&gt;'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="14">
-<img src="5.png" style="width:70%; display:block; margin:0;">
+<div class="cell-output cell-output-display" data-execution_count="7">
+<img src="5.png" style="width:100%; display:block; margin:0;">
 </div>
 </div>
 <ol start="6" type="1">
@@ -372,12 +409,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li>output</li>
 </ul>
-<div id="cell-32" class="cell">
+<div id="cell-32" class="cell" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.core.display <span class="im">import</span> HTML</span>
 <span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>HTML(<span class="st">'&lt;img src="6new.png" style="width:100%; display:block; margin:0;"&gt;'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="15">
-<img src="6new.png" style="width:70%; display:block; margin:0;">
+<div class="cell-output cell-output-display" data-execution_count="8">
+<img src="6new.png" style="width:100%; display:block; margin:0;">
 </div>
 </div>
 <ol start="7" type="1">
@@ -392,12 +429,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li>output</li>
 </ul>
-<div id="cell-34" class="cell">
+<div id="cell-34" class="cell" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.core.display <span class="im">import</span> HTML</span>
 <span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>HTML(<span class="st">'&lt;img src="7.png" style="width:100%; display:block; margin:0;"&gt;'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="16">
-<img src="7.png" style="width:70%; display:block; margin:0;">
+<div class="cell-output cell-output-display" data-execution_count="9">
+<img src="7.png" style="width:100%; display:block; margin:0;">
 </div>
 </div>
 <ol start="8" type="1">
@@ -412,12 +449,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li>output</li>
 </ul>
-<div id="cell-36" class="cell">
+<div id="cell-36" class="cell" data-execution_count="10">
 <div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.core.display <span class="im">import</span> HTML</span>
 <span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>HTML(<span class="st">'&lt;img src="8.png" style="width:100%; display:block; margin:0;"&gt;'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="17">
-<img src="8.png" style="width:70%; display:block; margin:0;">
+<div class="cell-output cell-output-display" data-execution_count="10">
+<img src="8.png" style="width:100%; display:block; margin:0;">
 </div>
 </div>
 <ol start="9" type="1">
@@ -432,12 +469,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li>output</li>
 </ul>
-<div id="cell-38" class="cell">
+<div id="cell-38" class="cell" data-execution_count="11">
 <div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.core.display <span class="im">import</span> HTML</span>
 <span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>HTML(<span class="st">'&lt;img src="9.png" style="width:100%; display:block; margin:0;"&gt;'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="18">
-<img src="9.png" style="width:70%; display:block; margin:0;">
+<div class="cell-output cell-output-display" data-execution_count="11">
+<img src="9.png" style="width:100%; display:block; margin:0;">
 </div>
 </div>
 <ol start="10" type="1">
@@ -451,12 +488,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li>output</li>
 </ul>
-<div id="cell-40" class="cell">
+<div id="cell-40" class="cell" data-execution_count="12">
 <div class="sourceCode cell-code" id="cb35"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.core.display <span class="im">import</span> HTML</span>
 <span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>HTML(<span class="st">'&lt;img src="10.png" style="width:100%; display:block; margin:0;"&gt;'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="19">
-<img src="10.png" style="width:70%; display:block; margin:0;">
+<div class="cell-output cell-output-display" data-execution_count="12">
+<img src="10.png" style="width:100%; display:block; margin:0;">
 </div>
 </div>
 </section>
@@ -576,6 +613,7 @@ To convert the given data into csv.</code></pre>
 </ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
