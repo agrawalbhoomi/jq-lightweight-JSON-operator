@@ -2,18 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://agrawalbhoomi.github.io/jq-lightweight-JSON-operator/blog.html</loc>
-    <lastmod>2025-02-25T09:43:05.781Z</lastmod>
+    <lastmod>2025-02-25T10:06:55.625Z</lastmod>
   </url>
   <url>
-    <loc>https://agrawalbhoomi.github.io/jq-lightweight-JSON-operator/posts/welcome.html</loc>
-    <lastmod>2025-02-25T09:43:05.781Z</lastmod>
-  </url>
-  <url>
-    <loc>https://agrawalbhoomi.github.io/jq-lightweight-JSON-operator/posts/visualisation.html</loc>
-    <lastmod>2025-02-25T09:43:05.781Z</lastmod>
+    <loc>https://agrawalbhoomi.github.io/jq-lightweight-JSON-operator/posts/JQ-COMMANDLINE.html</loc>
+    <lastmod>2025-02-25T10:06:55.625Z</lastmod>
   </url>
   <url>
     <loc>https://agrawalbhoomi.github.io/jq-lightweight-JSON-operator/index.html</loc>
-    <lastmod>2025-02-25T09:43:05.781Z</lastmod>
+    <lastmod>2025-02-25T10:06:55.625Z</lastmod>
   </url>
 </urlset>
