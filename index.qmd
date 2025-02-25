@@ -1,5 +1,5 @@
 ---
-title: Quarto Template
+title: jq-lightweight commandline JSON operator
 ---
 
-Quarto template Text!
+By Bhoomi Agrawal (24110073), Dhruv Gupta (24110108) & Antara Donde (24110046)
