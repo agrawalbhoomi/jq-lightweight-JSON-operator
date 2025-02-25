@@ -1,1 +1,1 @@
-# my blog on jq
+# my blog
