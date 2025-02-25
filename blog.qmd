@@ -1,5 +1,5 @@
 ---
-title: "My blog on jq"
+title: "My blog on jq: command-line processor for JSON"
 listing:
   contents: posts
   sort: "date desc"

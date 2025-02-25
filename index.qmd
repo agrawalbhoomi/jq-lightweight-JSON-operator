@@ -1,5 +1,5 @@
 ---
-title: jq-lightweight commandline JSON processor
+title: jq-lightweight command-line JSON processor
 ---
 
 By Bhoomi Agrawal (24110073), Dhruv Gupta (24110108) & Antara Donde (24110046)
